@@ -16,8 +16,10 @@ https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%
 https://www.gohugo.org/
 以上是我遇见的常规问题但是我自己本地存在着host代理问题，导致git无法连接至远端仓库，为此，我找到一种解决方法： 修改本地hosts文件：
 记事本打开后的样子：
-最后一行起初为：127.0.0.1，修改为：140.82.114.3才解决了git的连接问题
-总结 常遇到的问题能通过讨论轻松解决，但是一些不常见的问题比较棘手，如网络代理问题困扰了我一下午，起初完全没有想过这个问题，好在办法总是有的，最终还是成功搭建起自己的博客。">
+起初有一行
+127.0.0.1 github.com 这行代码阻止了git与github仓库的连接
+我加入一些代码：
+# GitHub Start 140.82.113.3 github.com 140.82.114.20 gist.github.com 151.101.184.133 assets-cdn.github.com 151.101.184.133 raw.githubusercontent.com 151.101.184.133 gist.githubusercontent.com 151.101.184.133 cloud.githubusercontent.com 151.101.184.133 camo.githubusercontent.com 151.101.184.133 avatars0.githubusercontent.com 199.232.68.133 avatars0.githubusercontent.com 199.232.28.133 avatars1.githubusercontent.com 151.101.184.133 avatars1.githubusercontent.com 151.101.184.133 avatars2.githubusercontent.com 199.232.28.133 avatars2.githubusercontent.com 151.101.184.133 avatars3.githubusercontent.com 199.232.68.133 avatars3.githubusercontent.com 151.101.184.133 avatars4.githubusercontent.com 199.232.68.133 avatars4.githubusercontent.com 151.101.184.133 avatars5.githubusercontent.com 199.232.68.133 avatars5.githubusercontent.com 151.101.184.133 avatars6.">
     <meta name="generator" content="Hugo 0.101.0" />
     
     
@@ -51,8 +53,10 @@ https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%
 https://www.gohugo.org/
 以上是我遇见的常规问题但是我自己本地存在着host代理问题，导致git无法连接至远端仓库，为此，我找到一种解决方法： 修改本地hosts文件：
 记事本打开后的样子：
-最后一行起初为：127.0.0.1，修改为：140.82.114.3才解决了git的连接问题
-总结 常遇到的问题能通过讨论轻松解决，但是一些不常见的问题比较棘手，如网络代理问题困扰了我一下午，起初完全没有想过这个问题，好在办法总是有的，最终还是成功搭建起自己的博客。" />
+起初有一行
+127.0.0.1 github.com 这行代码阻止了git与github仓库的连接
+我加入一些代码：
+# GitHub Start 140.82.113.3 github.com 140.82.114.20 gist.github.com 151.101.184.133 assets-cdn.github.com 151.101.184.133 raw.githubusercontent.com 151.101.184.133 gist.githubusercontent.com 151.101.184.133 cloud.githubusercontent.com 151.101.184.133 camo.githubusercontent.com 151.101.184.133 avatars0.githubusercontent.com 199.232.68.133 avatars0.githubusercontent.com 199.232.28.133 avatars1.githubusercontent.com 151.101.184.133 avatars1.githubusercontent.com 151.101.184.133 avatars2.githubusercontent.com 199.232.28.133 avatars2.githubusercontent.com 151.101.184.133 avatars3.githubusercontent.com 199.232.68.133 avatars3.githubusercontent.com 151.101.184.133 avatars4.githubusercontent.com 199.232.68.133 avatars4.githubusercontent.com 151.101.184.133 avatars5.githubusercontent.com 199.232.68.133 avatars5.githubusercontent.com 151.101.184.133 avatars6." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sniffstherose.github.io/posts/first/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-06-27T22:22:29+08:00" />
@@ -69,10 +73,12 @@ https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%
 https://www.gohugo.org/
 以上是我遇见的常规问题但是我自己本地存在着host代理问题，导致git无法连接至远端仓库，为此，我找到一种解决方法： 修改本地hosts文件：
 记事本打开后的样子：
-最后一行起初为：127.0.0.1，修改为：140.82.114.3才解决了git的连接问题
-总结 常遇到的问题能通过讨论轻松解决，但是一些不常见的问题比较棘手，如网络代理问题困扰了我一下午，起初完全没有想过这个问题，好在办法总是有的，最终还是成功搭建起自己的博客。"><meta itemprop="datePublished" content="2022-06-27T22:22:29+08:00" />
+起初有一行
+127.0.0.1 github.com 这行代码阻止了git与github仓库的连接
+我加入一些代码：
+# GitHub Start 140.82.113.3 github.com 140.82.114.20 gist.github.com 151.101.184.133 assets-cdn.github.com 151.101.184.133 raw.githubusercontent.com 151.101.184.133 gist.githubusercontent.com 151.101.184.133 cloud.githubusercontent.com 151.101.184.133 camo.githubusercontent.com 151.101.184.133 avatars0.githubusercontent.com 199.232.68.133 avatars0.githubusercontent.com 199.232.28.133 avatars1.githubusercontent.com 151.101.184.133 avatars1.githubusercontent.com 151.101.184.133 avatars2.githubusercontent.com 199.232.28.133 avatars2.githubusercontent.com 151.101.184.133 avatars3.githubusercontent.com 199.232.68.133 avatars3.githubusercontent.com 151.101.184.133 avatars4.githubusercontent.com 199.232.68.133 avatars4.githubusercontent.com 151.101.184.133 avatars5.githubusercontent.com 199.232.68.133 avatars5.githubusercontent.com 151.101.184.133 avatars6."><meta itemprop="datePublished" content="2022-06-27T22:22:29+08:00" />
 <meta itemprop="dateModified" content="2022-06-27T22:22:29+08:00" />
-<meta itemprop="wordCount" content="26">
+<meta itemprop="wordCount" content="87">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="First"/>
 <meta name="twitter:description" content="第一篇文章 实践中的问题
@@ -85,8 +91,10 @@ https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%
 https://www.gohugo.org/
 以上是我遇见的常规问题但是我自己本地存在着host代理问题，导致git无法连接至远端仓库，为此，我找到一种解决方法： 修改本地hosts文件：
 记事本打开后的样子：
-最后一行起初为：127.0.0.1，修改为：140.82.114.3才解决了git的连接问题
-总结 常遇到的问题能通过讨论轻松解决，但是一些不常见的问题比较棘手，如网络代理问题困扰了我一下午，起初完全没有想过这个问题，好在办法总是有的，最终还是成功搭建起自己的博客。"/>
+起初有一行
+127.0.0.1 github.com 这行代码阻止了git与github仓库的连接
+我加入一些代码：
+# GitHub Start 140.82.113.3 github.com 140.82.114.20 gist.github.com 151.101.184.133 assets-cdn.github.com 151.101.184.133 raw.githubusercontent.com 151.101.184.133 gist.githubusercontent.com 151.101.184.133 cloud.githubusercontent.com 151.101.184.133 camo.githubusercontent.com 151.101.184.133 avatars0.githubusercontent.com 199.232.68.133 avatars0.githubusercontent.com 199.232.28.133 avatars1.githubusercontent.com 151.101.184.133 avatars1.githubusercontent.com 151.101.184.133 avatars2.githubusercontent.com 199.232.28.133 avatars2.githubusercontent.com 151.101.184.133 avatars3.githubusercontent.com 199.232.68.133 avatars3.githubusercontent.com 151.101.184.133 avatars4.githubusercontent.com 199.232.68.133 avatars4.githubusercontent.com 151.101.184.133 avatars5.githubusercontent.com 199.232.68.133 avatars5.githubusercontent.com 151.101.184.133 avatars6."/>
 
 	
   </head>
@@ -199,10 +207,41 @@ https://www.gohugo.org/
 <p><a href="https://www.gohugo.org/">https://www.gohugo.org/</a></p>
 <h3 id="以上是我遇见的常规问题但是我自己本地存在着host代理问题导致git无法连接至远端仓库为此我找到一种解决方法">以上是我遇见的常规问题但是我自己本地存在着host代理问题，导致git无法连接至远端仓库，为此，我找到一种解决方法：</h3>
 <p>修改本地hosts文件：</p>
-<p><img src="https://sniffstherose.github.io/blog_flv//img/image-20220628170517928.png" alt="image-20220628170517928"></p>
+<p><img src="https://raw.githubusercontent.com/sniffstherose/blog_flv/main/img/202206281725911.png" alt="image-20220628172540872"></p>
 <p>记事本打开后的样子：</p>
-<p><img src="https://sniffstherose.github.io/blog_flv//img/image-20220628170546664.png" alt="image-20220628170546664"></p>
-<p>最后一行起初为：<em>127.0.0.1</em>，修改为：<em>140.82.114.3</em>才解决了git的连接问题</p>
+<p><img src="https://raw.githubusercontent.com/sniffstherose/blog_flv/main/img/202206281728709.png" alt="image-20220628172801672"></p>
+<p>起初有一行</p>
+<pre tabindex="0"><code>127.0.0.1 github.com
+</code></pre><p>这行代码阻止了git与github仓库的连接</p>
+<p>我加入一些代码：</p>
+<pre tabindex="0"><code># GitHub Start 
+140.82.113.3      github.com
+140.82.114.20     gist.github.com
+151.101.184.133    assets-cdn.github.com
+151.101.184.133    raw.githubusercontent.com
+151.101.184.133    gist.githubusercontent.com
+151.101.184.133    cloud.githubusercontent.com
+151.101.184.133    camo.githubusercontent.com
+151.101.184.133    avatars0.githubusercontent.com
+199.232.68.133     avatars0.githubusercontent.com
+199.232.28.133     avatars1.githubusercontent.com
+151.101.184.133    avatars1.githubusercontent.com
+151.101.184.133    avatars2.githubusercontent.com
+199.232.28.133     avatars2.githubusercontent.com
+151.101.184.133    avatars3.githubusercontent.com
+199.232.68.133     avatars3.githubusercontent.com
+151.101.184.133    avatars4.githubusercontent.com
+199.232.68.133     avatars4.githubusercontent.com
+151.101.184.133    avatars5.githubusercontent.com
+199.232.68.133     avatars5.githubusercontent.com
+151.101.184.133    avatars6.githubusercontent.com
+199.232.68.133     avatars6.githubusercontent.com
+151.101.184.133    avatars7.githubusercontent.com
+199.232.68.133     avatars7.githubusercontent.com
+151.101.184.133    avatars8.githubusercontent.com
+199.232.68.133     avatars8.githubusercontent.com
+# GitHub End
+</code></pre><p>最终解决了git的连接问题，经过测试，其实只需要第一行即可</p>
 <hr>
 <h2 id="总结">总结</h2>
 <p>常遇到的问题能通过讨论轻松解决，但是一些不常见的问题比较棘手，如网络代理问题困扰了我一下午，起初完全没有想过这个问题，好在办法总是有的，最终还是成功搭建起自己的博客。</p>

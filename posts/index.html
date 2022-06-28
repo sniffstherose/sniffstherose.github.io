@@ -109,8 +109,10 @@ https://zz2summer.github.io/github-pages-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%
 https://www.gohugo.org/
 以上是我遇见的常规问题但是我自己本地存在着host代理问题，导致git无法连接至远端仓库，为此，我找到一种解决方法： 修改本地hosts文件：
 记事本打开后的样子：
-最后一行起初为：127.0.0.1，修改为：140.82.114.3才解决了git的连接问题
-总结 常遇到的问题能通过讨论轻松解决，但是一些不常见的问题比较棘手，如网络代理问题困扰了我一下午，起初完全没有想过这个问题，好在办法总是有的，最终还是成功搭建起自己的博客。
+起初有一行
+127.0.0.1 github.com 这行代码阻止了git与github仓库的连接
+我加入一些代码：
+# GitHub Start 140.82.113.3 github.com 140.82.114.20 gist.github.com 151.101.184.133 assets-cdn.github.com 151.101.184.133 raw.githubusercontent.com 151.101.184.133 gist.githubusercontent.com 151.101.184.133 cloud.githubusercontent.com 151.101.184.133 camo.githubusercontent.com 151.101.184.133 avatars0.githubusercontent.com 199.232.68.133 avatars0.githubusercontent.com 199.232.28.133 avatars1.githubusercontent.com 151.101.184.133 avatars1.githubusercontent.com 151.101.184.133 avatars2.githubusercontent.com 199.232.28.133 avatars2.githubusercontent.com 151.101.184.133 avatars3.githubusercontent.com 199.232.68.133 avatars3.githubusercontent.com 151.101.184.133 avatars4.githubusercontent.com 199.232.68.133 avatars4.githubusercontent.com 151.101.184.133 avatars5.githubusercontent.com 199.232.68.133 avatars5.githubusercontent.com 151.101.184.133 avatars6.
     </div>
   </div>
 </div>
